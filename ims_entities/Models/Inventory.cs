@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InventoryManagementSystem.Entities.Models
 {
-    public class Inventory
+    public class Inventory: IEntity
     {
         public Guid Id { get; set; }
         public string Name { get; set; }
