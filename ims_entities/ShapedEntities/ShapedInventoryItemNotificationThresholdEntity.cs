@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace InventoryManagementSystem.Entities.ShapedEntities
 {
-    public class ShapeInventoryItemNotificationThresholdEntity: ShapedEntity
+    public class ShapedInventoryItemNotificationThresholdEntity: ShapedEntity
     {
         public Guid InventoryId { get; set; }
         public Guid ProductId { get; set; }
