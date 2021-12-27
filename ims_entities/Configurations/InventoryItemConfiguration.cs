@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace InventoryManagementSystem.Entities.Configurations
 {
-    public class InventoryTypeConfiguration : IEntityTypeConfiguration<InventoryItem>
+    public class InventoryItemConfiguration : IEntityTypeConfiguration<InventoryItem>
     {
         public void Configure(EntityTypeBuilder<InventoryItem> builder)
         {
