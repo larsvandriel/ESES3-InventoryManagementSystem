@@ -23,8 +23,4 @@
     <ProjectReference Include="..\ims_repository\ims_repository.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
 </Project>
